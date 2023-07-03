@@ -23,14 +23,18 @@ meta:
   enable-sidebar: ''
   align-sidebar: right
   _thumbnail_id: '401'
-<!-- author:
+author:
   login: Himadhar
   email: misterhimadhar@gmail.com
   display_name: Himadhar
   first_name: ''
-  last_name: '' -->
+  last_name: ''
 permalink: "/javascript-basic-guidelines-2/"
 ---
+<style>
+body { color:#2d2d2d; font-family: "Segoe UI",helvetica,arial,sans-serif !important; } .tag-links { display:none; font-style: normal !important; } .entry-meta { display:none; } blockquote, q, .format-aside { font-style: normal !important; }<br />
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { font-family: "Segoe UI",helvetica,arial,sans-serif !important; }<br />
+</style>
 <blockquote><p>As a JavaScript developer, I needed a standard as to start off any work that I do while handling client-side validations. I started off googling a bit to summarize on basic rules one should have while writing code in JavaScript or while using any of the plugins written using it. I have listed some of the basic rules a developer should follow as a 'rule of thumb' before coding in JavaScript. Feel free to comment on any part of the below list and if necessary I'll edit the post to incorporate your comments as a point too.<!--more--></p>
 <ul>
 <li><b>var:</b>&nbsp;Declaring a variable must be done always with a var prefix to it. This makes its scope local to its context (this). Not declaring a variable (prefixing it with a var) might change the scope of the variable from local to global.&nbsp;Global also creates ambiguity as its browser dependent and it means, it can be either local to the document or the window itself.<br />
