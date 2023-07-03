@@ -81,6 +81,6 @@ permalink: "/about/"
 <p>HOffline is a jquery based plugin focused to provide a solution where internet connection is to be tested. I have <a title="hosted the code on Github" href="https://github.com/himadhar/hoffline" target="_blank" rel="noopener">hosted the code on Github </a>with a sample project to play around with.</p>
 <hr class="wp-block-separator" />
 <p>Please use the button below, to download a copy of my resume.</p>
-<div class="wp-block-file"><object class="wp-block-file__embed" data="https://himadhar.com/wp-content/uploads/2022/05/Himadhar-H-11_8-years-Frontend-Specialist.pdf" type="application/pdf" style="width:100%;height:600px" aria-label="Embed of Himadhar H - 11_8 years - Frontend Specialist."></object><a href="https://himadhar.com/wp-content/uploads/2022/05/Himadhar-H-11_8-years-Frontend-Specialist.pdf">Himadhar H - 11_8 years - Frontend Specialist</a><a href="https://himadhar.com/wp-content/uploads/2022/05/Himadhar-H-11_8-years-Frontend-Specialist.pdf" class="wp-block-file__button" download>Download</a></div>
+<div class="wp-block-file"><object class="wp-block-file__embed" data="{{ site.baseurl }}/assets/cv.pdf" type="application/pdf" style="width:100%;height:600px" aria-label="Embed of Himadhar H - Frontend Expert."></object><a href="{{ site.baseurl }}/assets/cv.pdf">Himadhar H - 11_8 years - Frontend Specialist</a><a href="{{ site.baseurl }}/assets/cv.pdf" class="wp-block-file__button" download>Download</a></div>
 <hr class="wp-block-separator" />
 <p class="has-text-align-right"><strong>- Himadhar</strong></p>
