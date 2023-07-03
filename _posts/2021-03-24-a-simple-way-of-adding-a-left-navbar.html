@@ -36,36 +36,20 @@ meta:
   enable-sidebar: ''
   align-sidebar: right
   _thumbnail_id: '457'
-author:
+<!-- author:
   login: Himadhar
   email: misterhimadhar@gmail.com
   display_name: Himadhar
   first_name: ''
-  last_name: ''
+  last_name: '' -->
 permalink: "/a-simple-way-of-adding-a-left-navbar/"
 ---
-<p><!-- wp:heading {"level":3} --></p>
 <h3>Hi.</h3>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
 <p id="8135">The left navbar is always a key starting point of any project. It gives a visual cue to the end-user to figure where the navigations for the app resides (heuristic / mental shortcut). Coming up with a lightweight solution for any problem is the best way to go about it.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
 <p id="db33">And, here, I am trying to provide a simple approach to managing the navigation control/navbar to be easily available and animate smoothly without over-engineering it.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:more --><br />
-<!--more--><br />
-<!-- /wp:more --></p>
-<p><!-- wp:paragraph --></p>
 <p id="af75">Many plugins, frameworks&nbsp;among others, are currently available to solve this area of concern. But, then you also have to proceed with the extra methods/hooks they provide along with the implementation. If the whole purpose is to achieve the left navbar and proceed with your other implementations, it’s probably better to go about it the simpler way. Below is one such implementation that is out-n-out CSS driven and zero JS to achieve it.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
 <h2>Magic ingredient</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
 <p>The key to achieve this is by using a checkbox and its state of being checked or not — to control whether you show your left tree or not. as illustrated below;</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
 <pre class="wp-block-code"><code>&lt;div id="root"&gt;
   &lt;input type="checkbox" id="masterToggler" /&gt;
   &lt;i class="hamburger-icon"&gt;&lt;/i&gt;
@@ -79,14 +63,8 @@ permalink: "/a-simple-way-of-adding-a-left-navbar/"
     ...
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
 <p>You can sprinkle some animations once you are done implementing them. Since the structure is more or less decided here, let’s dive into implementation.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
 <h2>Implementation</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:code --></p>
 <pre class="wp-block-code"><code>// SCSS variables
 $dimension: 40px;
 $leftNavWidth: 26vw;
@@ -135,24 +113,11 @@ $fullD: 100%;
   height: $dimension;
   width: $dimension;
 }</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:heading --></p>
 <h2>Conclusion</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:image {"align":"center","id":492,"width":640,"height":388,"sizeSlug":"large","linkDestination":"none"} --></p>
 <div class="wp-block-image">
 <figure class="aligncenter size-large is-resized"><img src="{{ site.baseurl }}/assets/2021/03/pexels-pixabay-220147.jpg" alt="" class="wp-image-492" width="640" height="388" /></figure>
 </div>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
 <p id="327b">As you can see, the checkbox state controls the position, width, visibility of the components residing as its sibling. A very straight forward way of achieving the left nav bar with zero Javascript!</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
 <p id="0655">Few additional things achievable this way are — when collapsed, the left tree can show just the icons instead of all the nav controls, active state of the currently navigated view can be better highlighted when collapsed and so on. You can also place the controls in the header, or the bottom of the navbar can even sit on the right side of the view and the CSS will still work since it's “nearby” logic-driven — all of it driven by the state of the checkbox — selected or not.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
 <p id="f9cd">I have created <a rel="noreferrer noopener" href="https://codepen.io/himadhar/embed/WNpjBMm" data-type="URL" data-id="https://codepen.io/himadhar/embed/WNpjBMm" target="_blank">this project in Codepen</a> for reference. Let's connect if you want to discuss the idea behind it.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph {"align":"right"} --></p>
 <p class="has-text-align-right"><strong>- Himadhar</strong></p>
-<p><!-- /wp:paragraph --></p>
