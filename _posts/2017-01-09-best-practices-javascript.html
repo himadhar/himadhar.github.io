@@ -1,0 +1,68 @@
+---
+layout: post
+title: Best Practices - JavaScript
+date: 2017-01-09 06:58:19.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- CSS
+- Designing
+- HTML
+- JavaScript
+- Mobility
+- Web Technologies
+tags:
+- angular optimization
+- angularjs
+- angularjs optimization
+- css
+- css optimization
+- html
+- html optimization
+- javascript
+- javascript optimization
+- jquery
+- js
+- js optimization
+- optimization
+- web
+- web optimization
+meta:
+  _edit_last: '1'
+  enable-sidebar: ''
+  align-sidebar: right
+  _thumbnail_id: '393'
+author:
+  login: Himadhar
+  email: misterhimadhar@gmail.com
+  display_name: Himadhar
+  first_name: ''
+  last_name: ''
+permalink: "/best-practices-javascript/"
+---
+<style><!--<br />
+body { color:#2d2d2d; font-family: "Segoe UI",helvetica,arial,sans-serif !important; } .tag-links { display:none; font-style: normal !important; } .entry-meta { display:none; } blockquote, q, .format-aside { font-style: normal !important; } html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { font-family: "Segoe UI",helvetica,arial,sans-serif !important; } a:focus, a:active, a:hover { outline: none; } input[type="radio"], input[type="checkbox"] { box-sizing: border-box; padding: 0; margin-bottom: 10px; } .option_section { padding-bottom: 15px; margin-left: 15px; } .page_header { text-align: center; font-size: 150%; padding-top:5px; } .questions_list_container { padding-left:30px; padding-right:30px; } .question_container { border-bottom: 1px solid #eee; margin:2%; margin-top: 0; position: relative; } .question_container p { margin-left: 15px;margin-top: 10px; } .submit_button { 	height: 50px !important; 	position: absolute !important; 	width: 150px !important; 	left: 43% !important; 	margin-bottom: 15px !important; 	-moz-box-shadow: 0px 1px 0px 0px #f0f7fa !important; 	-webkit-box-shadow: 0px 1px 0px 0px #f0f7fa !important; 	box-shadow: 0px 1px 0px 0px #f0f7fa !important; 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2)) !important; 	background:-moz-linear-gradient(top, #33bdef 5%, #019ad2 100%) !important; 	background:-webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%) !important; 	background:-o-linear-gradient(top, #33bdef 5%, #019ad2 100%) !important; 	background:-ms-linear-gradient(top, #33bdef 5%, #019ad2 100%) !important; 	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%) !important; 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2',GradientType=0) !important; 	background-color:#33bdef !important; 	-moz-border-radius:6px !important; 	-webkit-border-radius:6px !important; 	border-radius:6px !important; 	border:1px solid #057fd0 !important; 	display:inline-block !important; 	cursor:pointer !important; 	color:#ffffff !important; 	font-family:arial !important; 	font-size:15px !important; 	font-weight:bold !important; 	padding:6px 24px !important; 	text-decoration:none !important; 	text-shadow:0px -1px 0px #5b6178 !important; } .submit_button:hover { 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef)) !important; 	background:-moz-linear-gradient(top, #019ad2 5%, #33bdef 100%) !important; 	background:-webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%) !important; 	background:-o-linear-gradient(top, #019ad2 5%, #33bdef 100%) !important; 	background:-ms-linear-gradient(top, #019ad2 5%, #33bdef 100%) !important; 	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%) !important; 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef',GradientType=0) !important; 	background-color:#019ad2 !important; } .submit_button:active { 	position:relative !important; 	top:1px !important; } img.status_icon { max-width: 50px; position:absolute; right: 0px; top: 50px; } #result_statement { color:#fff; background-color:#ff0000; margin-top: 0px; width: 70%; margin-left: 15%; margin-bottom: 10px; } #result_statement.all_valid { background-color: #1E961E; }<br />
+--></style>
+<p>Many solutions exist to solve a problem from a front-end's perspective. But it needs a lot of efforts to get it right, to tune the performance to the best possible way, to keep things in sync in the most controlled and efficient manner, every time you build a webapp.&nbsp;As a front end developer, I believe that most of the cases, we tend to ignore that, whatever be the size of the app, performance should be the elementary concern for choosing the right - frameworks, libraries, storage mechanisms <!--more-->and so on.</p>
+<p>Through this blog, I will attempt to collate a series of possibilities, when implemented, could lead to a great performance quality in your application. I'll focus on 3 areas separately - HTML, CSS and the JS part of the app.</p>
+<p><em style="font-size: 0.9em; font-weight: 600;">(I'm adding points as and when they hit me, so, this could take a while - for now, few of them)</em></p>
+<p><strong style="font-size: 1.2em;">1. HTML</strong></p>
+<p><strong style="font-size: 1.2em;"></strong><strong>A)</strong> The DOM (Document Object Model) is the first thing browser focuses on rendering. The (not so but) best approach to load files within a file is to first allow the stylesheets to exist, then the view components load (body tag part) and lastly, the scripts can be included to keep the view ready, and probably have a preloader (loading screen) until the last file gets loaded. It is a "NOT SO" good approach, simply because, for larger applications, the javascript files tend to be huge and this means there will be a delay in the compiling time, which will impact the page an end user gets to see.</p>
+<p><strong>B) </strong>Remove all unnecessary&nbsp;tags simply put to give a structural feel. For example, if the view has two areas, a left and right, having two divs would do justice here but not anything more (keep in mind the CSS box model) and anything more would simply mean the page takes that much time to load.</p>
+<p><strong style="font-size: 1.2em;">2. CSS</strong></p>
+<p><strong style="font-size: 1.2em;"></strong><strong>A) </strong>CSS allow us to achieve wonderful animations which in-turn provide us with great visual experience. But sometimes, this could lead to disasters too, since CSS relies completely on the GPU layer to handle the rendering aspect, and it cannot be burdened a lot. This means, if you have too many animations for every action within your application, chances are, your browser might be knocked out cold simply because it couldn't take it anymore! As a workaround, keep your css animations at check, render animations only when it matters.</p>
+<p><strong>B) </strong>Try to group as many components as possible with a common class name to have single object reference while rendering happens.</p>
+<p><strong>C)&nbsp;</strong>It is also a good point to notice that, if you have css added to elements ID based, you could end up helping the JS layer to have best results too, since its way slow when it comes to class names as compared to the IDs.</p>
+<p><strong style="font-size: 1.2em;">3. JavaScript</strong></p>
+<p><strong style="font-size: 1.2em;"></strong><strong>A)</strong> DOM traversal is the key to baby steps in optimization from a JS perspective. Whenever there requires for a DOM manipulation, use IDs for elements as much as possible. This way, JavaScript returns with the first-hit and proceeds with the next actions like - document.getElementById("ElementID"). With libraries like <a title="JQuery" href="https://jquery.com/" target="_blank" rel="noopener">JQuery</a>, the code becomes even more efficient if you handle them using the indexes though they are w.r.t IDs like - $('#elementID")[0]. Traversing through the tag type like - $("div &gt; section &gt; span") for manipulating any values (get / set) becomes too heavy an operation.</p>
+<p><strong>B)</strong> If you are a beginner, you might want to know that, DOM parsing happens sequentially - line by line from your HTML file. If you load your JS files - the libraries, plugins, and your custom code - in the first part of your HTML file, chances are, your page could load very slow, based on the lengthy files you include. Because, each such files are first compiled, processed and then the next one is picked up. This means, every single file, as long as it could be, once included in a script tag in your HTML, will be compiled and then the next line will be taken up. As an amateur fix, you can load all your JS files in the end, but first minify them (every character matters, junk characters like - spaces or comments eat up processing time, and will slow the compiling activity). Once done, add their reference just before the closing of the body tag. This way, basic DOM will be rendered and ready. You can have an init method to handle the delay time during the startup actions you need to settle up before user begins using your app (adding a preloader image could be a good start).</p>
+<p><strong>C)</strong> Read about "<a title="Asynchronous Module Definition (AMD) API" href="http://requirejs.org/docs/whyamd.html" target="_blank" rel="noopener">Asynchronous Module Definition (AMD) API</a>", a page from RequireJS website. The approach is something, that is way way better method to solve the problem Point (B) tried to - to reduce the burden on the DOM loading / rendering time. AMD allows a developer to isolate the HTML rendering from the JS loading / compiling part. This allows the developer to focus more on the performance with better handling of the loading of the JS files asynchronously.</p>
+<p><strong>D)</strong> Any DOM manipulations you do - can be done using single action methods instead of splitting them into individual actions. Every single DOM manipulation forces to refresh the view part of the DOM to reflect the update. By carefully consolidating them, you could reduce the screen updating (not the page refresh, but the visual rendering update a browser like Chrome or IE does when data changes) considerably like - a code as this &gt; $("#selector").css("background", "red").css("color", "white"); can be consolidated to a single line&nbsp;$("#selector").css({"background": "red", "color": "white"});</p>
+<p><strong>E)</strong> On the same lines of point (D), as a developer you should build the DOM from dynamic data from JS code (any AJAX response that you possibly use to build your HTML contents) before making them visually available - any table you need to render to display data, you can first build the entire table and simply append it to the tag you want it to be at, like - $("div.table-parent").append(tableComponent) // where table component is a huge string built with AJAX response. This could be handy when the app is built on frameworks like AngularJS (&lt;1.5) where watchers end up to be the sole reason where the app becomes clumsy and tardy because of the huge data it plays with.</p>
+<p><strong>F)</strong> JS Libraries exist with the sole purpose to ease a developer's life. Sometimes, they end up becoming a nightmare too. Since, plugins / libraries are built to be powerful. Sometimes really powerful!! This also means, they end being too long and can slow down the performance of the application, like - <a title="JQuery" href="https://jquery.com/" target="_blank" rel="noopener">JQuery</a>&nbsp;is a very powerful plugin. But if the only purpose for it to be a part of your application is for ease in accessing the HTML selectors, then it would be really useful for you to look out for alternatives, something like <a title="SizzleJS" href="https://sizzlejs.com/" target="_blank" rel="noopener">SizzleJS</a>&nbsp;or pure old JavaScript.</p>
+<p><strong>G)</strong> Objects are a clean solution for many of the developers' problems. For example, if you have a value from a HTML that is used often, it would be good to create a parent object and add a reference to that tag as a value within this object like - for a tag with id="selector", you can write var selectors = {}; selectors.selector = document.getElementById("selector").value; // for a input type tag.</p>
+<p>I have added those that came to my mind now. If you feel anything else can be added, please feel free to comment below, and I'll study it and add it if it is useful for others. Meanwhile, I'll try to better my points by adding more clearer ones as often as possible.</p>
+<p style="text-align: right;"><strong>- Himadhar H</strong></p>
