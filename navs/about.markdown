@@ -27,7 +27,7 @@ permalink: "/about/"
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":632,"sizeSlug":"large","linkDestination":"none"} -->
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img src="{{ site.baseurl }}/assets/2016/05/HH-e1624970924794.png" alt="Himadhar H" class="wp-image-632" /></figure>
+<figure class="aligncenter size-large"><img src="{{ site.baseurl }}/assets/hh-profile-pic.png" alt="Himadhar H" class="wp-image-632" /></figure>
 </div>
 <!-- /wp:image --></div>
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:pullquote -->
