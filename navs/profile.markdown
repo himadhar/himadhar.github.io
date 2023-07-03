@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Profile
+title: About
 date: 2016-05-04 09:42:12.000000000 +02:00
 type: page
 parent_id: '0'
@@ -20,7 +20,7 @@ author:
   display_name: Himadhar
   first_name: ''
   last_name: ''
-permalink: "/portfolio/"
+permalink: "/about/"
 ---
 <hr class="wp-block-separator" />
 <!-- /wp:separator -->
@@ -40,7 +40,7 @@ permalink: "/portfolio/"
 <!-- /wp:column --></div>
 <hr class="wp-block-separator" />
 <h1>I am Himadhar.</h1>
-<p>With just about 11 years of overall experience in roles spanning from conceptualizing, designing and developing UI, having worked on major domains – Banking, Luxury and Hospitality, R&amp;D, Infrastructure, Automation technology and Healthcare and have worked in various capacities from being an Individual Contributor to a Team Lead.</p>
+<p>Started my career in 2010 and have gained immense experience in roles spanning from conceptualizing, designing and developing UI, having worked on major domains – Banking, Luxury and Hospitality, R&amp;D, Infrastructure, Automation technology and Healthcare and have worked in various capacities from being an Individual Contributor to a Team Lead.</p>
 <p>I am a Google certified UX designer, with exposure to front end development platforms. This allows me to be able to bridge well between the design and development ecosystems, create a design that can be seamlessly handed over to development and code for the project to deliver it too.</p>
 <hr class="wp-block-separator" />
 <h1>Skills</h1>
