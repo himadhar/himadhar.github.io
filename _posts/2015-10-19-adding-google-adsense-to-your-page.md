@@ -27,8 +27,6 @@ author: Himadhar
 permalink: "/adding-google-adsense-to-your-page/"
 ---
 
-# Adding Google AdSense To Your Page
-
 ## Introduction
 
 ![]({{ site.baseurl }}/assets/blogs/adsense.jpeg)

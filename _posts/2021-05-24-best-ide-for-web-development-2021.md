@@ -45,8 +45,6 @@ author: Himadhar
 permalink: "/best-ide-for-web-development-2021/"
 ---
 
-# One of the Best IDE for Web Development in 2021 - VS Code
-
 ## Introduction
 
 ![]({{ site.baseurl }}/assets/blogs/vscode-logo.png)

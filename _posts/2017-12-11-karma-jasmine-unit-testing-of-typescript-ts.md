@@ -30,8 +30,6 @@ author: Himadhar
 permalink: "/karma-jasmine-unit-testing-of-typescript-ts/"
 ---
 
-Unit Testing using TypeScript (TS)
-
 ## Introduction
 
 ![]({{ site.baseurl }}/assets/blogs/js-basics.jpeg)

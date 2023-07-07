@@ -35,8 +35,6 @@ author: Himadhar
 permalink: "/improve-javascript-creating-a-plugin-using-jquery/"
 ---
 
-# Improve JavaScript: Creating a Plugin using jQuery
-
 ## Introduction
 
 ![]({{ site.baseurl }}/assets/blogs/jquery.jpeg)

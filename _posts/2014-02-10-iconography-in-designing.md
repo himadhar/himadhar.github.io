@@ -27,8 +27,6 @@ author: Himadhar
 permalink: "/iconography-in-designing/"
 ---
 
-# Iconography in Designing
-
 ## Introduction
 
 ![]({{ site.baseurl }}/assets/blogs/iconography.jpeg)

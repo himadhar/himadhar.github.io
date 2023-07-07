@@ -18,8 +18,6 @@ author: Himadhar
 permalink: "/apps-to-ease-your-life/"
 ---
 
-# Apps To Ease Your Life
-
 ## Introduction
 
 ![]({{ site.baseurl }}/assets/blogs/app-to-ease.jpeg)
