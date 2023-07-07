@@ -1,13 +1,50 @@
 ---
-title: 'Improve JavaScript: Creating a Plugin using jQuery'
-date: '2015-12-10'
-------------------
+layout: post
+title: Improve Javascript - Creating a plugin using jQuery
+date: 2015-12-10 17:59:22.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish 
+categories:
+- Designing
+- Mobility
+- Web Technologies
+tags:
+- create-a-plugin
+- javascript-plugin
+- jquery
+- jquery create-plugin
+- jquery plugin
+- js interview
+- js-interview-plugin
+- js-plugin
+- plugin
+- web-interview-javascript
+- web-interview-javascript-advanced
+- web-interview-jquery
+- web-plugin
+- website-plugin
+meta:
+  _edit_last: '1'
+  enable-sidebar: ''
+  align-sidebar: right
+  _thumbnail_id: '397'
+author:
+  login: Himadhar
+  email: misterhimadhar@gmail.com
+  display_name: Himadhar
+  first_name: ''
+  last_name: ''
+permalink: "/improve-javascript-creating-a-plugin-using-jquery/"
+---
 
 # Improve JavaScript: Creating a Plugin using jQuery
 
 ## Introduction
 
-![](/images/blogs/jquery.jpeg)
+![]({{ site.baseurl }}/assets/blogs/jquery.jpeg)
 
 Creating JavaScript plugins can enhance code reusability and improve the functionality of your web applications. This article explains how to create a plugin using jQuery, a popular JavaScript library.
 

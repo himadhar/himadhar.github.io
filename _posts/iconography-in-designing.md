@@ -1,12 +1,42 @@
 ---
-title: 'Iconography in Designing'
-date: '2014-02-10'
+layout: post
+title: Iconography in Designing
+date: 2014-02-10 05:47:38.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Designing
+- Mobility
+tags:
+- designing
+- designing icons
+- iconography
+- icons
+- mobile icons
+- mobile ui
+- ui
+meta:
+  _edit_last: '1'
+  enable-sidebar: ''
+  align-sidebar: right
+  _thumbnail_id: '405'
+author:
+  login: Himadhar
+  email: misterhimadhar@gmail.com
+  display_name: Himadhar
+  first_name: ''
+  last_name: ''
+permalink: "/iconography-in-designing/"
 ---
+
 # Iconography in Designing
 
 ## Introduction
 
-![](/images/blogs/iconography.jpeg)
+![]({{ site.baseurl }}/assets/blogs/iconography.jpeg)
 
 An excerpt from Wikipedia, “Iconography is the branch of art history which studies the identification, description, and the interpretation of the content of images: the subjects depicted, the particular compositions and details used to do so, and other elements that are distinct from artistic style“.
 

@@ -1,12 +1,42 @@
+----
+layout: post
+title: JavaScript basic guidelines
+date: 2015-02-03 16:59:53.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Designing
+- Web Technologies
+tags:
+- coding
+- coding standards
+- javascript
+- javascript coding
+- javascript coding standards
+- javascript standards
+- standards
+meta:
+  _edit_last: '1'
+  enable-sidebar: ''
+  align-sidebar: right
+  _thumbnail_id: '401'
+author:
+  login: Himadhar
+  email: misterhimadhar@gmail.com
+  display_name: Himadhar
+  first_name: ''
+  last_name: ''
+permalink: "/javascript-basic-guidelines-2/"
 ---
-title: 'JavaScript Basic Guidelines'
-date: '2015-03-21'
----
+
 # JavaScript Basic Guidelines
 
 ## Introduction
 
-![](/images/blogs/js-basics-2.jpeg)
+![]({{ site.baseurl }}/assets/blogs/js-basics-2.jpeg)
 
 As a JavaScript developer, I needed a standard as to start off any work that I do while handling client-side validations. I started off googling a bit to summarize on basic rules one should have while writing code in JavaScript or while using any of the plugins written using it.
 

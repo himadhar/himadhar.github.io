@@ -1,12 +1,33 @@
 ---
-title: 'Apps To Ease Your Life'
-date: '2014-02-26'
+layout: post
+title: Apps to ease your life
+date: 2014-02-26 07:46:49.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '1'
+  enable-sidebar: ''
+  align-sidebar: right
+  _thumbnail_id: '403'
+author:
+  login: Himadhar
+  email: misterhimadhar@gmail.com
+  display_name: Himadhar
+  first_name: ''
+  last_name: ''
+permalink: "/apps-to-ease-your-life/"
 ---
+
 # Apps To Ease Your Life
 
 ## Introduction
 
-![](/images/blogs/app-to-ease.jpeg)
+![]({{ site.baseurl }}/assets/blogs/app-to-ease.jpeg)
 
 I am always amazed by the way developers visualize what to display to the users. One such example is the [Gmail app](https://https://play.google.com/store/apps/details?id=com.google.android.gm&pli=1) for Android devices where the entire focus is given to ease the users. The comfort level it offers to the users is excellent.
 

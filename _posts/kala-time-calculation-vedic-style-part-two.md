@@ -1,13 +1,43 @@
 ---
-title: 'Kala / Time Calculation Vedic Style (Part Two)'
-date: '2013-11-13'
+layout: post
+title: Kala / Time Calculation Vedic Style (Part Two)
+date: 2013-11-14 06:04:20.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Hindutva
+- Science
+tags:
+- almanac
+- calendar
+- Hindu
+- hindu calendar
+- india
+- indian calendar
+- indian mythology
+- mythology
+meta:
+  _edit_last: '1'
+  enable-sidebar: ''
+  align-sidebar: right
+  _thumbnail_id: '409'
+author:
+  login: Himadhar
+  email: misterhimadhar@gmail.com
+  display_name: Himadhar
+  first_name: ''
+  last_name: ''
+permalink: "/kala-time-calculation-vedic-style-part-two/"
 ---
 
 # Kala / Time Calculation Vedic Style (Part Two)
 
 ## Introduction
 
-![](/images/blogs/kala-2.jpeg)
+![]({{ site.baseurl }}/assets/blogs/kala-2.jpeg)
 
 In continuation with the previous post, I would like to continue in explaining what and how calculations are made from a Samvatsara (Year)’s level up-to what it means for a day in a Brahma’s life and how is it related to band in turn how its related to Shiva.
 

@@ -1,13 +1,42 @@
 ---
-title: 'Adding Google AdSense To Your Page'
-date: '2015-10-09'
-------------------
+layout: post
+title: Adding Google AdSense to your page
+date: 2015-10-19 13:06:56.000000000 +02:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Web Technologies
+tags:
+- ads
+- ads network
+- adsense
+- google
+- google ads
+- google adsense
+- network
+- wordpress ads
+meta:
+  _edit_last: '1'
+  enable-sidebar: ''
+  align-sidebar: right
+  _thumbnail_id: '399'
+author:
+  login: Himadhar
+  email: misterhimadhar@gmail.com
+  display_name: Himadhar
+  first_name: ''
+  last_name: ''
+permalink: "/adding-google-adsense-to-your-page/"
+---
 
 # Adding Google AdSense To Your Page
 
 ## Introduction
 
-![](/images/blogs/adsense.jpeg)
+![]({{ site.baseurl }}/assets/blogs/adsense.jpeg)
 
 Google AdSense has been one of the most popular and simplest mechanisms to monetise a website. All you have to do, is request Google to provide with the code for Ads and add it in your site, and yes, its that simple.
 
@@ -24,13 +53,13 @@ The first step in enabling it in your site, is to create an AdSense account. Any
 To complete the registration, you need to complete two steps. Firstly, create an ad, and then place it in your site.
 
 #### Step 1: Click on My Ads tab and proceed by creating a new ad unit.
-![](/images/blogs/adsense1.jpeg)
+![]({{ site.baseurl }}/assets/blogs/adsense1.jpeg)
 
 #### Step 2: Provide a title and choose the preferred ad settings (layout, Ad type, display colors, backup ads)  and save.
-![](/images/blogs/adsense2.jpeg)
+![]({{ site.baseurl }}/assets/blogs/adsense2.jpeg)
 
 #### Step 3: Once you have successfully submitted the details, Google will provide you with an Ad inducing snippet to be placed in your site.
-![](/images/blogs/adsense3.jpeg)
+![]({{ site.baseurl }}/assets/blogs/adsense3.jpeg)
 
 #### Step 4: Final Step
 Just copy this piece of code into your website, to whichever location you want it to be and you are done!

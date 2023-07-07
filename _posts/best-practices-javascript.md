@@ -1,13 +1,54 @@
 ---
-title: 'Best Practices – JavaScript'
-date: '2017-08-19'
-------------------
+layout: post
+title: Best Practices - JavaScript
+date: 2017-01-09 06:58:19.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- CSS
+- Designing
+- HTML
+- JavaScript
+- Mobility
+- Web Technologies
+tags:
+- angular optimization
+- angularjs
+- angularjs optimization
+- css
+- css optimization
+- html
+- html optimization
+- javascript
+- javascript optimization
+- jquery
+- js
+- js optimization
+- optimization
+- web
+- web optimization
+meta:
+  _edit_last: '1'
+  enable-sidebar: ''
+  align-sidebar: right
+  _thumbnail_id: '393'
+author:
+  login: Himadhar
+  email: misterhimadhar@gmail.com
+  display_name: Himadhar
+  first_name: ''
+  last_name: ''
+permalink: "/best-practices-javascript/"
+---
 
 # Best Practices – JavaScript
 
 ## Introduction
 
-![](/images/blogs/js-best.jpeg)
+![]({{ site.baseurl }}/assets/blogs/js-best.jpeg)
 
 JavaScript is a powerful and versatile programming language used for web development. To write clean, maintainable, and efficient code, it's essential to follow best practices. This article presents some of the best practices for JavaScript development.
 

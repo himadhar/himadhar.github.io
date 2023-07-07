@@ -6,7 +6,7 @@ date: '2022-12-09'
 
 ## Introduction
 
-![](/images/blogs/diderot_landscape_large.jpg)
+![]({{ site.baseurl }}/assets/blogs/diderot_landscape_large.jpg)
 
 Recently, I came across this effect called the “Diderot effect”. I was personally very familiar with this uncontrollable urge to make things in sync. I realised that it all started with the first couple of things I began with. Soon enough, I googled and found out about it!
 

@@ -1,13 +1,55 @@
 ---
-title: 'A Simple Way Of Adding A Left Navbar'
-date: '2022-03-21'
+layout: post
+title: A simple way of adding a left navbar
+date: 2021-03-24 04:09:51.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- CSS
+- HTML
+- JavaScript
+- Web Technologies
+tags:
+- css
+- css3
+- github
+- html
+- html5
+- left nav bar
+- left navbar
+- left tree
+- lefttree
+- less
+- navbar
+- no javascript
+- SCSS
+- without coding
+meta:
+  _oembed_time_b830827e979fc24670b46fba06e02473: '1624257726'
+  _oembed_b830827e979fc24670b46fba06e02473: <iframe class="wp-embedded-content" sandbox="allow-scripts"
+    security="restricted" title="A simple way of adding a left navbar" src="https://codepen.io/himadhar/embed/preview/WNpjBMm?default-tabs=css%2Cresult&#038;height=300&#038;host=https%3A%2F%2Fcodepen.io&#038;slug-hash=WNpjBMm#?secret=STXHZtm6us"
+    data-secret="STXHZtm6us" scrolling="no" frameborder="0" height="300"></iframe>
+  _oembed_01caeab1f4bf32d4fdbbc1fe5c9ee801: "{{unknown}}"
+  enable-sidebar: ''
+  align-sidebar: right
+  _thumbnail_id: '457'
+author:
+  login: Himadhar
+  email: misterhimadhar@gmail.com
+  display_name: Himadhar
+  first_name: ''
+  last_name: ''
+permalink: "/a-simple-way-of-adding-a-left-navbar/"
 ---
 
 # A Simple Way Of Adding A Left Navbar
 
 ## Introduction
 
-![](/images/blogs/tulip.jpeg)
+![]({{ site.baseurl }}/assets/blogs/tulip.jpeg)
 
 The left navbar is always a key starting point of any project. It gives a visual cue to the end-user to figure where the navigations for the app resides (heuristic / mental shortcut). Coming up with a lightweight solution for any problem is the best way to go about it.
 
@@ -105,7 +147,7 @@ I have created this project in Codepen for reference. Let’s connect if you wan
 
 ## Conclusion
 
-![](/images/blogs/clock.jpeg)
+![]({{ site.baseurl }}/assets/blogs/clock.jpeg)
 
 Choosing the right IDE for web development is crucial for optimizing your workflow and efficiency. The IDEs listed above are among the best options available in 2021, offering a range of features, flexibility, and customization. Consider your specific needs and preferences when selecting an IDE for your web development projects.
 
