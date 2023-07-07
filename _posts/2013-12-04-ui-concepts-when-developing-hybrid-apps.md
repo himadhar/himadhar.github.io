@@ -1,7 +1,29 @@
----
-title: 'UI Concepts When Developing Hybrid Apps'
-date: '2021-12-04'
----
+----
+layout: post
+title: UI Concepts when developing Hybrid apps
+date: 2013-12-04 05:04:56.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Designing
+tags: []
+meta:
+  _edit_last: '1'
+  enable-sidebar: ''
+  align-sidebar: right
+  _thumbnail_id: '407'
+author:
+  login: Himadhar
+  email: misterhimadhar@gmail.com
+  display_name: Himadhar
+  first_name: ''
+  last_name: ''
+permalink: "/ui-concepts-when-developing-hybrid-apps/"
+----
+
 # UI Concepts When Developing Hybrid Apps
 
 ## Introduction
