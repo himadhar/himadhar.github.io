@@ -1,4 +1,4 @@
-----
+---
 layout: post
 title: UI Concepts when developing Hybrid apps
 date: 2013-12-04 05:04:56.000000000 +01:00
@@ -22,7 +22,7 @@ author:
   first_name: ''
   last_name: ''
 permalink: "/ui-concepts-when-developing-hybrid-apps/"
-----
+---
 
 # UI Concepts When Developing Hybrid Apps
 
