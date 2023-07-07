@@ -1,12 +1,60 @@
 ---
-title: 'Best IDE for Web Development in 2021'
-date: '2021-05-24'
+layout: post
+title: Best IDE for Web Development (2021)
+date: 2021-05-24 13:42:17.000000000 +02:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- CSS
+- CSS Tricks
+- Designing
+- HTML
+- HTML TRicks
+- JavaScript
+- LESS
+- Mobility
+- No Coding
+- NO JS
+- Object Oriented
+- SCSS
+- Tricks
+- TypeScript
+- Web Technologies
+tags:
+- best ide
+- css
+- html
+- ide
+- javascript
+- js
+- less
+- notepad++
+- notepadplusplus
+- typescript
+- vs code
+- web developer
+- web development
+meta:
+  align-sidebar: right
+  enable-sidebar: ''
+  _thumbnail_id: '612'
+author:
+  login: Himadhar
+  email: misterhimadhar@gmail.com
+  display_name: Himadhar
+  first_name: ''
+  last_name: ''
+permalink: "/best-ide-for-web-development-2021/"
 ---
+
 # One of the Best IDE for Web Development in 2021 - VS Code
 
 ## Introduction
 
-![](/images/blogs/vscode-logo.png)
+![]({{ site.baseurl }}/assets/blogs/vscode-logo.png)
 
 I’ve been an active developer since 2010. I got to work on quite a few editors over the years. I got to work on Notepad, Notepad++, Eclipse, XCode, Android Studio, Brackets, EditPlus and so on. The single constant editor over the years has been Notepad++ just because of the simple, yet elegant features it offers that is so amazing. I am currently coding on VS Code for about 3 years. It is amazing how it has matured as a prime and free editor to work with over the years.
 
@@ -47,7 +95,7 @@ The way to achieve any outcome is in your control. For me, it has been VS Code t
 
 ## Conclusion
 
-![](/images/blogs/road.jpeg)
+![]({{ site.baseurl }}/assets/blogs/road.jpeg)
 
 The way to achieve any outcome is in your control. For me, it has been VS Code to achieve some of them. Be it React, Angular, vanilla or tangents like Flutter, Android or Python or even automation scripting like Robot framework (built on Python + Selenium) and so many – VS Code is awesome ❤️Choosing the right IDE for web development is crucial for optimizing your workflow and efficiency.
 

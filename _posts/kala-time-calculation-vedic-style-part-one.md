@@ -1,13 +1,44 @@
 ---
-title: 'Kala / Time Calculation Vedic Style (Part One)'
-date: '2013-11-05'
+layout: post
+title: Kala / Time Calculation Vedic Style (Part One)
+date: 2013-11-05 06:23:06.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Hindutva
+- Science
+tags:
+- almanac
+- calendar
+- Hindu
+- hindu calendar
+- hindu mythology
+- india
+- indian calendar
+- indian mythology
+- mythology
+meta:
+  _edit_last: '1'
+  enable-sidebar: ''
+  align-sidebar: right
+  _thumbnail_id: '411'
+author:
+  login: Himadhar
+  email: misterhimadhar@gmail.com
+  display_name: Himadhar
+  first_name: ''
+  last_name: ''
+permalink: "/kala-time-calculation-vedic-style-part-one/"
 ---
 
 # Kala / Time Calculation Vedic Style (Part One)
 
 ## Introduction
 
-![](/images/blogs/kala-1.jpeg)
+![]({{ site.baseurl }}/assets/blogs/kala-1.jpeg)
 
 We all probably understand that time is precious and has to be planned accordingly to have a successful day which leads to a successful lifestyle and a balanced life to summarize. But ever wondered how time is calculated? I mean, how each day means something? And when it means something, it might probably also have a definition too?
 

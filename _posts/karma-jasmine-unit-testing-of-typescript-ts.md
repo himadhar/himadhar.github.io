@@ -1,13 +1,44 @@
 ---
-title: 'Unit Testing using TypeScript (TS)'
-date: '2017-11-11'
+layout: post
+title: Unit Testing using TypeScript (TS)
+date: 2017-12-11 12:34:55.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- HTML
+- JavaScript
+- TypeScript
+- Web Technologies
+tags:
+- jasmine
+- karma
+- karma-jasmine
+- typescript
+- typescript testing
+- typescript unit testing
+- unit testing
+meta:
+  _edit_last: '1'
+  enable-sidebar: ''
+  align-sidebar: right
+  _thumbnail_id: '391'
+author:
+  login: Himadhar
+  email: misterhimadhar@gmail.com
+  display_name: Himadhar
+  first_name: ''
+  last_name: ''
+permalink: "/karma-jasmine-unit-testing-of-typescript-ts/"
 ---
 
 Unit Testing using TypeScript (TS)
 
 ## Introduction
 
-![](/images/blogs/js-basics.jpeg)
+![]({{ site.baseurl }}/assets/blogs/js-basics.jpeg)
 
 I have been through multiple websites to find a solution to handle TypeScript unit testing and seems like using the Karma-Jasmine combination is a good start. With this post, I intend to summarize it and hope it helps you while doing so.
 

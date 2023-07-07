@@ -6,7 +6,7 @@ date: '2021-12-04'
 
 ## Introduction
 
-![](/images/blogs/hybrid-apps.jpeg)
+![]({{ site.baseurl }}/assets/blogs/hybrid-apps.jpeg)
 
 Being a app designer has its own perks in terms of exposure towards being updated to the latest guidelines for an excellent user experience among varied platforms. But, as a designer, one has to understand every possibility before deciding on a particular layout. For example, if the app is built in native then must retain the branding and other generic areas and if possible, a consistency in look and feel.
 
