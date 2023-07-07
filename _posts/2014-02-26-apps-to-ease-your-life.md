@@ -14,12 +14,7 @@ meta:
   enable-sidebar: ''
   align-sidebar: right
   _thumbnail_id: '403'
-author:
-  login: Himadhar
-  email: misterhimadhar@gmail.com
-  display_name: Himadhar
-  first_name: ''
-  last_name: ''
+author: Himadhar
 permalink: "/apps-to-ease-your-life/"
 ---
 
@@ -53,6 +48,6 @@ Discussing with few of my friends / programmers, I can only assume that these th
 
 ---
 
-<h6 style="text-align: right">
+<h6 style="text-align: right;font-size: 1rem;margin-top: 16px;">
 - Himadhar
 </h6>

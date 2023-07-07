@@ -23,12 +23,7 @@ meta:
   enable-sidebar: ''
   align-sidebar: right
   _thumbnail_id: '405'
-author:
-  login: Himadhar
-  email: misterhimadhar@gmail.com
-  display_name: Himadhar
-  first_name: ''
-  last_name: ''
+author: Himadhar
 permalink: "/iconography-in-designing/"
 ---
 
@@ -68,6 +63,6 @@ These are some of the basic ideas which a designer can utilize to design icons. 
 
 ---
 
-<h6 style="text-align: right">
+<h6 style="text-align: right;font-size: 1rem;margin-top: 16px;">
 - Himadhar
 </h6>

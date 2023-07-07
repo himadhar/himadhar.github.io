@@ -31,12 +31,7 @@ meta:
   enable-sidebar: ''
   align-sidebar: right
   _thumbnail_id: '397'
-author:
-  login: Himadhar
-  email: misterhimadhar@gmail.com
-  display_name: Himadhar
-  first_name: ''
-  last_name: ''
+author: Himadhar
 permalink: "/improve-javascript-creating-a-plugin-using-jquery/"
 ---
 
@@ -181,6 +176,6 @@ I believe this is a good start to understand the structure of a plugin. Feel fre
 
 ---
 
-<h6 style="text-align: right">
+<h6 style="text-align: right;font-size: 1rem;margin-top: 16px;">
 - Himadhar
 </h6>

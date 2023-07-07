@@ -24,12 +24,7 @@ meta:
   enable-sidebar: ''
   align-sidebar: right
   _thumbnail_id: '409'
-author:
-  login: Himadhar
-  email: misterhimadhar@gmail.com
-  display_name: Himadhar
-  first_name: ''
-  last_name: ''
+author: Himadhar
 permalink: "/kala-time-calculation-vedic-style-part-two/"
 ---
 
@@ -90,6 +85,6 @@ I'll try to write on them when time permits 🙂
 
 ---
 
-<h6 style="text-align: right">
+<h6 style="text-align: right;font-size: 1rem;margin-top: 16px;">
 - Himadhar
 </h6>

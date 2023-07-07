@@ -1,4 +1,4 @@
-----
+---
 layout: post
 title: JavaScript basic guidelines
 date: 2015-02-03 16:59:53.000000000 +01:00
@@ -23,12 +23,7 @@ meta:
   enable-sidebar: ''
   align-sidebar: right
   _thumbnail_id: '401'
-author:
-  login: Himadhar
-  email: misterhimadhar@gmail.com
-  display_name: Himadhar
-  first_name: ''
-  last_name: ''
+author: Himadhar
 permalink: "/javascript-basic-guidelines-2/"
 ---
 
@@ -98,6 +93,6 @@ Javascript has its nightmares but if you can focus on mastering the basics, the 
 
 ---
 
-<h6 style="text-align: right">
+<h6 style="text-align: right;font-size: 1rem;margin-top: 16px;">
 - Himadhar
 </h6>

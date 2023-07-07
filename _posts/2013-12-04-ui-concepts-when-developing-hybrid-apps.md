@@ -3,24 +3,19 @@ layout: post
 title: UI Concepts when developing Hybrid apps
 date: 2013-12-04 05:04:56.000000000 +01:00
 type: post
-parent_id: '0'
+parent_id: "0"
 published: true
-password: ''
+password: ""
 status: publish
 categories:
-- Designing
+  - Designing
 tags: []
 meta:
-  _edit_last: '1'
-  enable-sidebar: ''
+  _edit_last: "1"
+  enable-sidebar: ""
   align-sidebar: right
-  _thumbnail_id: '407'
-author:
-  login: Himadhar
-  email: misterhimadhar@gmail.com
-  display_name: Himadhar
-  first_name: ''
-  last_name: ''
+  _thumbnail_id: "407"
+author: Himadhar
 permalink: "/ui-concepts-when-developing-hybrid-apps/"
 ---
 
@@ -58,6 +53,6 @@ I have always preferred Flat UIs over others for all the reasons I just mentione
 
 ---
 
-<h6 style="text-align: right">
+<h6 style="text-align: right;font-size: 1rem;margin-top: 16px;">
 - Himadhar
 </h6>

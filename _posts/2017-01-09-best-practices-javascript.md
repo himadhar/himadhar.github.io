@@ -35,12 +35,7 @@ meta:
   enable-sidebar: ''
   align-sidebar: right
   _thumbnail_id: '393'
-author:
-  login: Himadhar
-  email: misterhimadhar@gmail.com
-  display_name: Himadhar
-  first_name: ''
-  last_name: ''
+author: Himadhar
 permalink: "/best-practices-javascript/"
 ---
 
@@ -135,6 +130,6 @@ I have added those that came to my mind now. If you feel anything else can be ad
 
 ---
 
-<h6 style="text-align: right">
+<h6 style="text-align: right;font-size: 1rem;margin-top: 16px;">
 - Himadhar
 </h6>

@@ -36,12 +36,7 @@ meta:
   enable-sidebar: ''
   align-sidebar: right
   _thumbnail_id: '457'
-author:
-  login: Himadhar
-  email: misterhimadhar@gmail.com
-  display_name: Himadhar
-  first_name: ''
-  last_name: ''
+author: Himadhar
 permalink: "/a-simple-way-of-adding-a-left-navbar/"
 ---
 
@@ -153,6 +148,6 @@ Choosing the right IDE for web development is crucial for optimizing your workfl
 
 ---
 
-<h6 style="text-align: right">
+<h6 style="text-align: right;font-size: 1rem;margin-top: 16px;">
 - Himadhar
 </h6>
