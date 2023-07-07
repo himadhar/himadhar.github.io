@@ -25,12 +25,7 @@ meta:
   enable-sidebar: ''
   align-sidebar: right
   _thumbnail_id: '411'
-author:
-  login: Himadhar
-  email: misterhimadhar@gmail.com
-  display_name: Himadhar
-  first_name: ''
-  last_name: ''
+author: Himadhar
 permalink: "/kala-time-calculation-vedic-style-part-one/"
 ---
 
@@ -95,6 +90,6 @@ What is a cycle of life and where do the so called “Gods” in Hindu’s way o
 
 ---
 
-<h6 style="text-align: right">
+<h6 style="text-align: right;font-size: 1rem;margin-top: 16px;">
 - Himadhar
 </h6>

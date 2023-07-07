@@ -23,12 +23,7 @@ meta:
   enable-sidebar: ''
   align-sidebar: right
   _thumbnail_id: '399'
-author:
-  login: Himadhar
-  email: misterhimadhar@gmail.com
-  display_name: Himadhar
-  first_name: ''
-  last_name: ''
+author: Himadhar
 permalink: "/adding-google-adsense-to-your-page/"
 ---
 
@@ -84,6 +79,6 @@ Google Adsense is one of the fastest way to monetise on your content with carefu
 
 ---
 
-<h6 style="text-align: right">
+<h6 style="text-align: right;font-size: 1rem;margin-top: 16px;">
 - Himadhar
 </h6>

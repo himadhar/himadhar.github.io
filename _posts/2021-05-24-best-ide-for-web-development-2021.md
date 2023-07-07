@@ -41,12 +41,7 @@ meta:
   align-sidebar: right
   enable-sidebar: ''
   _thumbnail_id: '612'
-author:
-  login: Himadhar
-  email: misterhimadhar@gmail.com
-  display_name: Himadhar
-  first_name: ''
-  last_name: ''
+author: Himadhar
 permalink: "/best-ide-for-web-development-2021/"
 ---
 
@@ -103,6 +98,6 @@ The IDEs listed above are among the best options available in 2021, offering a r
 
 ---
 
-<h6 style="text-align: right">
+<h6 style="text-align: right;font-size: 1rem;margin-top: 16px;">
 - Himadhar
 </h6>

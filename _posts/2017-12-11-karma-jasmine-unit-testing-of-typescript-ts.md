@@ -26,11 +26,7 @@ meta:
   align-sidebar: right
   _thumbnail_id: '391'
 author:
-  login: Himadhar
-  email: misterhimadhar@gmail.com
-  display_name: Himadhar
-  first_name: ''
-  last_name: ''
+author: Himadhar
 permalink: "/karma-jasmine-unit-testing-of-typescript-ts/"
 ---
 
@@ -118,6 +114,6 @@ describe('subtract method', () => {
 By following these steps, you can set up unit testing for your TypeScript code using Karma and Jasmine. Writing unit tests helps ensure the correctness and reliability of your code, leading to more robust software development. Start writing tests for your TypeScript projects and enjoy the benefits of a well-tested codebase.
 
 
-<h6 style="text-align: right">
+<h6 style="text-align: right;font-size: 1rem;margin-top: 16px;">
 - Himadhar
 </h6>

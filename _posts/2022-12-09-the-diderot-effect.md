@@ -10,12 +10,7 @@ status: publish
 categories: []
 tags: []
 meta: {}
-author:
-  login: Himadhar
-  email: misterhimadhar@gmail.com
-  display_name: Himadhar
-  first_name: ''
-  last_name: ''
+author: Himadhar
 permalink: "/the-diderot-effect/"
 ---
 
@@ -52,6 +47,6 @@ Being aware of the Diderot Effect can help us break free from the cycle of consu
 
 ---
 
-<h6 style="text-align: right">
+<h6 style="text-align: right;font-size: 1rem;margin-top: 16px;">
 - Himadhar
 </h6>
