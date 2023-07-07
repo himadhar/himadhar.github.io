@@ -1,7 +1,24 @@
 ---
-title: 'The Diderot Effect'
-date: '2022-12-09'
+layout: post
+title: The Diderot effect
+date: 2022-12-09 10:09:17.000000000 +01:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta: {}
+author:
+  login: Himadhar
+  email: misterhimadhar@gmail.com
+  display_name: Himadhar
+  first_name: ''
+  last_name: ''
+permalink: "/the-diderot-effect/"
 ---
+
 # The Diderot Effect
 
 ## Introduction
