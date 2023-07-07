@@ -19,8 +19,6 @@ author: Himadhar
 permalink: "/ui-concepts-when-developing-hybrid-apps/"
 ---
 
-# UI Concepts When Developing Hybrid Apps
-
 ## Introduction
 
 ![]({{ site.baseurl }}/assets/blogs/hybrid-apps.jpeg)

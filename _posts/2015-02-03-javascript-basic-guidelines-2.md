@@ -27,8 +27,6 @@ author: Himadhar
 permalink: "/javascript-basic-guidelines-2/"
 ---
 
-# JavaScript Basic Guidelines
-
 ## Introduction
 
 ![]({{ site.baseurl }}/assets/blogs/js-basics-2.jpeg)

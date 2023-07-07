@@ -40,8 +40,6 @@ author: Himadhar
 permalink: "/a-simple-way-of-adding-a-left-navbar/"
 ---
 
-# A Simple Way Of Adding A Left Navbar
-
 ## Introduction
 
 ![]({{ site.baseurl }}/assets/blogs/tulip.jpeg)

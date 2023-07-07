@@ -14,8 +14,6 @@ author: Himadhar
 permalink: "/the-diderot-effect/"
 ---
 
-# The Diderot Effect
-
 ## Introduction
 
 ![]({{ site.baseurl }}/assets/blogs/diderot_landscape_large.jpg)

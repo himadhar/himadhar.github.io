@@ -29,8 +29,6 @@ author: Himadhar
 permalink: "/kala-time-calculation-vedic-style-part-one/"
 ---
 
-# Kala / Time Calculation Vedic Style (Part One)
-
 ## Introduction
 
 ![]({{ site.baseurl }}/assets/blogs/kala-1.jpeg)

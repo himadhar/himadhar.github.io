@@ -39,8 +39,6 @@ author: Himadhar
 permalink: "/best-practices-javascript/"
 ---
 
-# Best Practices – JavaScript
-
 ## Introduction
 
 ![]({{ site.baseurl }}/assets/blogs/js-best.jpeg)
