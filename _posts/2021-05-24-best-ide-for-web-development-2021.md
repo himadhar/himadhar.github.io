@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Best IDE for Web Development (2021)
+image: /assets/blogs/vscode-logo.png
 date: 2021-05-24 13:42:17.000000000 +02:00
 type: post
 parent_id: '0'

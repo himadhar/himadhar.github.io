@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Best Practices - JavaScript
+image: /assets/blogs/js-best.jpeg
 date: 2017-01-09 06:58:19.000000000 +01:00
 type: post
 parent_id: '0'

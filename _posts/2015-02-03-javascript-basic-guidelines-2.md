@@ -1,6 +1,7 @@
 ---
 layout: post
 title: JavaScript basic guidelines
+image: /assets/blogs/js-basics-2.jpeg
 date: 2015-02-03 16:59:53.000000000 +01:00
 type: post
 parent_id: '0'

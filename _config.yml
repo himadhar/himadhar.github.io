@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: I am Himadhar
-email: hi@himadhar.com
+title: Himadhar's Blog
+email: himadhar.narayan@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a website dedicated for my blogs and portfolio
+  My personal blog where I share my thoughts and experiences.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: HimadharNarayan
@@ -36,6 +36,14 @@ permalink: pretty # Removes trailing `.html`, keeps clean URLs like /about
 theme: minima
 plugins:
   - jekyll-feed
+
+# Use our custom layout
+layouts_dir: _layouts
+
+# These are used in the header navigation
+header_pages:
+  - navs/about.md
+  - blog.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

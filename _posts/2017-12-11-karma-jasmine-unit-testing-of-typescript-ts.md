@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Unit Testing using TypeScript (TS)
+image: /assets/blogs/js-basics.jpeg
 date: 2017-12-11 12:34:55.000000000 +01:00
 type: post
 parent_id: '0'

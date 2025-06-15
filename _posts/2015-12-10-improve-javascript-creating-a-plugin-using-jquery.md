@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Improve Javascript - Creating a plugin using jQuery
+image: /assets/blogs/jquery.jpeg
 date: 2015-12-10 17:59:22.000000000 +01:00
 type: post
 parent_id: '0'

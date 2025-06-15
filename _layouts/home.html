@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        <a class="post-card" href="{{ post.url | relative_url }}">
+          <div class="post-thumbnail">
+            {% if post.image %}
+              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+            {% else %}
+              <div class="post-thumbnail-placeholder"></div>
+            {% endif %}
+          </div>
+          <div class="post-content-preview">
+            <h3 class="post-link">
+              {{ post.title | escape }}
+            </h3>
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            {%- if site.show_excerpts -%}
+              <div class="post-excerpt">{{ post.excerpt }}</div>
+            {%- endif -%}
+          </div>
+        </a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+</div> 

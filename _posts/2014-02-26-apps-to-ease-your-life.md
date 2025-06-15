@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Apps to ease your life
+image: /assets/blogs/app-to-ease.jpeg
 date: 2014-02-26 07:46:49.000000000 +01:00
 type: post
 parent_id: '0'

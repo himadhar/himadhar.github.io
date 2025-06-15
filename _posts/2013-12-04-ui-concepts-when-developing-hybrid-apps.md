@@ -1,6 +1,7 @@
 ---
 layout: post
 title: UI Concepts when developing Hybrid apps
+image: /assets/blogs/hybrid-apps.jpeg
 date: 2013-12-04 05:04:56.000000000 +01:00
 type: post
 parent_id: "0"

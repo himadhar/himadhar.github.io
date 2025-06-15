@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Kala / Time Calculation Vedic Style (Part One)
+iamge: /assets/blogs/kala-1.jpeg
 date: 2013-11-05 06:23:06.000000000 +01:00
 type: post
 parent_id: '0'

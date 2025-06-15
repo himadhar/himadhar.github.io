@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Adding Google AdSense to your page
+image: /assets/blogs/adsense.jpeg
 date: 2015-10-19 13:06:56.000000000 +02:00
 type: post
 parent_id: '0'

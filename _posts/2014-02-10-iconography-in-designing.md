@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Iconography in Designing
+image: /assets/blogs/iconography.jpeg
 date: 2014-02-10 05:47:38.000000000 +01:00
 type: post
 parent_id: '0'

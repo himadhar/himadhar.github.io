@@ -1,0 +1,342 @@
+/* Volks-Typo inspired styles */
+:root {
+  --font-heading-primary: 'Oswald', sans-serif;
+  --font-heading-secondary: 'Roboto Condensed', sans-serif;
+  --font-body: 'Work Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-white: #ffffff;
+  --color-white-light: #fdfdfd;
+  --color-light-gray: #f5f5f5;
+  --color-medium-gray: #888888;
+  --color-dark-gray: #333333;
+  --color-black: #000000;
+  --color-accent-red: #dc2626;
+}
+
+/* Base styles */
+body {
+  font-family: var(--font-body);
+  color: var(--color-black);
+  background-color: var(--color-white);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  flex: 1;
+}
+
+main.page-content {
+  background-color: var(--color-white);
+  flex: 1;
+}
+
+/* Page styles */
+article.page {
+  padding: 2rem 0;
+  background-color: var(--color-white);
+}
+
+.page-header {
+  margin-bottom: 2rem;
+  border-bottom: 2px solid var(--color-accent-red);
+  padding-bottom: 1rem;
+  background-color: var(--color-white);
+}
+
+.page-title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: var(--color-black);
+}
+
+.page-content {
+  background-color: var(--color-white);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading-primary);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--color-accent-red);
+}
+
+h3 {
+  font-family: var(--font-heading-secondary);
+  font-size: 1.5rem;
+}
+
+/* Layout */
+.site-header {
+  border-top: 0 !important;
+  border-bottom: 2px solid var(--color-accent-red) !important;
+  padding: 1rem 0;
+}
+
+.site-title {
+  font-family: var(--font-heading-primary) !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  color: var(--color-black) !important;
+}
+
+.site-title:hover {
+  text-decoration: none;
+  color: var(--color-accent-red) !important;
+}
+
+.site-nav .page-link {
+  font-family: var(--font-heading-secondary) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  font-size: 0.9rem !important;
+  color: var(--color-black) !important;
+}
+
+.site-nav .page-link:hover {
+  text-decoration: none;
+  color: var(--color-accent-red) !important;
+}
+
+/* Posts */
+.post-list {
+  margin-left: 0;
+  list-style: none;
+}
+
+.post-list > li {
+  margin-bottom: 2rem;
+}
+
+.post-card {
+  display: flex;
+  align-items: flex-start;
+  padding: 1.5rem;
+  background: var(--color-white-light);
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+  transition: all 0.2s ease;
+  text-decoration: none !important;
+}
+
+.post-card:hover {
+  background: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0,0,0,0.03);
+  transform: translateY(-2px);
+  text-decoration: none !important;
+}
+
+/* Post thumbnail */
+.post-thumbnail {
+  flex: 0 0 120px;
+  height: 120px;
+  margin-right: 1.5rem;
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--color-light-gray);
+}
+
+.post-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+}
+
+.post-thumbnail-placeholder {
+  width: 100%;
+  height: 100%;
+  background: var(--color-light-gray);
+  position: relative;
+}
+
+.post-thumbnail-placeholder::after {
+  content: "📷";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  opacity: 0.3;
+}
+
+/* Post content preview */
+.post-content-preview {
+  flex: 1;
+  min-width: 0; /* Prevents text overflow */
+}
+
+.post-meta {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--color-medium-gray);
+  margin-top: 0.5rem;
+}
+
+.post-link {
+  font-family: var(--font-heading-primary) !important;
+  font-size: 1.5rem !important;
+  color: var(--color-black) !important;
+  margin: 0 !important;
+}
+
+.post-card:hover .post-link {
+  color: var(--color-accent-red) !important;
+}
+
+.post-excerpt {
+  margin-top: 0.75rem;
+  color: var(--color-dark-gray);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Links */
+a {
+  color: var(--color-accent-red);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-accent-red);
+  text-decoration: underline;
+}
+
+/* Code blocks */
+pre, code {
+  font-family: var(--font-mono) !important;
+  background-color: var(--color-light-gray) !important;
+  border-radius: 4px !important;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 2px solid var(--color-accent-red) !important;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+
+.site-footer h2 {
+  color: var(--color-black);
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  font-family: var(--font-heading-secondary);
+  background: var(--color-accent-red);
+  color: var(--color-white);
+  padding: 0.75em 1.5em;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.button:hover {
+  background: var(--color-dark-gray);
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+/* Images */
+img {
+  border-radius: 8px;
+  max-width: 100%;
+  display: block;
+  margin: 1.5rem 0;
+}
+
+/* Back button */
+.back-button {
+  display: inline-block;
+  font-family: var(--font-heading-secondary);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-medium-gray);
+  margin-bottom: 2rem;
+  transition: color 0.2s ease;
+}
+
+.back-button:hover {
+  color: var(--color-accent-red);
+  text-decoration: none;
+}
+
+/* WordPress Block Styles */
+.wp-block-separator {
+  border: none;
+  border-bottom: 1px solid var(--color-light-gray);
+  margin: 2rem 0;
+}
+
+.wp-block-columns {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  background: transparent;
+}
+
+.wp-block-column {
+  flex: 1;
+  background: transparent;
+}
+
+.wp-block-pullquote {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+
+.wp-block-pullquote blockquote {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.wp-block-image {
+  margin: 2rem 0;
+  background: transparent;
+}
+
+.wp-block-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Ensure no overlays */
+.wp-block-columns::before,
+.wp-block-columns::after,
+.wp-block-column::before,
+.wp-block-column::after,
+.wp-block-image::before,
+.wp-block-image::after {
+  display: none !important;
+}

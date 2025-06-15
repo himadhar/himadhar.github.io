@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Diderot effect
+image: /assets/blogs/diderot_landscape_large.jpg
 date: 2022-12-09 10:09:17.000000000 +01:00
 type: post
 parent_id: '0'

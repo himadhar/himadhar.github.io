@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A simple way of adding a left navbar
+image: /assets/blogs/tulip.jpeg
 date: 2021-03-24 04:09:51.000000000 +01:00
 type: post
 parent_id: '0'
