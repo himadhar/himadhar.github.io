@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Vasati App - Developer Support & Privacy Policy
+title: Vasati - Apartments Management System
 permalink: /vasati/
 ---
 
-<h2>Developer Support</h2>
+<h2>Vasati Support</h2>
 
 <p>This page provides support information and the privacy policy for <strong>Vasati</strong>, a mobile application available for Android and iOS devices.</p>
 
@@ -14,7 +14,7 @@ permalink: /vasati/
 
 <h2>Privacy Policy</h2>
 
-<p><em>Last updated: March 2025</em></p>
+<p><em>Last updated: March 2026</em></p>
 
 <h3>1. Application Overview</h3>
 
