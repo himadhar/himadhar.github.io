@@ -4,7 +4,13 @@ title: Vasati - Apartments Management System
 permalink: /vasati/
 ---
 
-<h2>Vasati Support</h2>
+<p style="text-align: center; margin-bottom: 2em;">
+  <img src="{{ site.baseurl }}/assets/apps/vasati/Feature graphic.png" alt="Vasati - Apartments Management System" style="max-width: 100%; height: auto; border-radius: 8px;" />
+</p>
+
+<h2 style="display: flex; gap: 16px; align-items: center; margin-bottom: 1em;">
+  <img src="{{ site.baseurl }}/assets/apps/vasati/Vasati App logo.png" alt="Vasati logo" width="60" height="60" style="vertical-align: middle;" />
+Vasati - Apartment Management System</h2>
 
 <p>This page provides support information and the privacy policy for <strong>Vasati</strong>, a mobile application available for Android and iOS devices.</p>
 
